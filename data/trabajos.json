@@ -1,0 +1,151 @@
+[
+    {
+        "id": 1,
+        "foto": "./assets/trabajos/1calcoImagen.jpg",
+        "titulo": "Calco de imagen con vectores",
+        "descripcion": "Calco de camara casio",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 2,
+        "foto": "./assets/trabajos/2dipticoGanko.jpg",
+        "titulo": "Menu sushi",
+        "descripcion": "Diseño diptico para Ganko Sushi",
+        "programa": [
+            "./assets/program/id.png"
+        ]
+    },
+    {
+        "id": 3,
+        "foto": "./assets/trabajos/3ilustracionShiisa.jpg",
+        "titulo": "Diseño de Shiisa",
+        "descripcion": "Diseño de ilustración mascota",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 4,
+        "foto": "./assets/trabajos/4logoMinami.jpg",
+        "titulo": "Diseño de logo Minami sushi",
+        "descripcion": "Diseño de logo para sushi",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 5,
+        "foto": "./assets/trabajos/5logoPunto.jpg",
+        "titulo": "Diseño de logo Punto Bazar",
+        "descripcion": "Diseño de logo para bazar",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 6,
+        "foto": "./assets/trabajos/6logoTresPuntos.jpg",
+        "titulo": "Diseño de logo Tres puntos",
+        "descripcion": "Diseño de logo",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 7,
+        "foto": "./assets/trabajos/7nipponTourist.jpg",
+        "titulo": "Rediseño Nippon Tourist",
+        "descripcion": "Rediseño de imagen coorporativa",
+        "programa": [
+            "./assets/program/ai.png",
+            "./assets/program/ps.png"
+        ]
+    },
+    {
+        "id": 8,
+        "foto": "./assets/trabajos/8reme5.jpg",
+        "titulo": "Diseño de logo Tanuki",
+        "descripcion": "Diseño de logo",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 9,
+        "foto": "./assets/trabajos/9reme6.jpg",
+        "titulo": "Diseño de remera Yamanote Line",
+        "descripcion": "Diseño para remera",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 10,
+        "foto": "./assets/trabajos/91espacioBazar.jpg",
+        "titulo": "Diseño de logo Espacio Bazar",
+        "descripcion": "Diseño de logo para bazar",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 11,
+        "foto": "./assets/trabajos/92daruma.jpg",
+        "titulo": "Ilustración Daruma",
+        "descripcion": "Ilustración de personaje",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 12,
+        "foto": "./assets/trabajos/93teruteru.jpg",
+        "titulo": "Ilustración Teru-Teru-Boozu",
+        "descripcion": "Ilustración de personaje",
+        "programa": [
+            "./assets/program/ai.png"
+        ]
+    },
+    {
+        "id": 13,
+        "foto": "./assets/trabajos/94cuadernoAnillado.jpg",
+        "titulo": "Diseño tapa de cuaderno",
+        "descripcion": "Diseño manga",
+        "programa": [
+            "./assets/program/ai.png",
+            "./assets/program/ps.png"
+        ]
+    },
+    {
+        "id": 14,
+        "foto": "./assets/trabajos/95flyerBurzaco.jpg",
+        "titulo": "Flyer kermese de A.J.Burzaco",
+        "descripcion": "Flyer para evento cultural",
+        "programa": [
+            "./assets/program/ai.png",
+            "./assets/program/ps.png"
+        ]
+    },
+    {
+        "id": 15,
+        "foto": "./assets/trabajos/96cuatripticoMaki.jpg",
+        "titulo": "Diseño cuatríptico Maki sushi",
+        "descripcion": "Diseño cuatríptico",
+        "programa": [
+            "./assets/program/ai.png",
+            "./assets/program/ps.png"
+        ]
+    },
+    {
+        "id": 16,
+        "foto": "./assets/trabajos/97tripticoMinami.jpg",
+        "titulo": "Diseño tríptico Minami sushi",
+        "descripcion": "Diseño tríptico",
+        "programa": [
+            "./assets/program/ai.png",
+            "./assets/program/ps.png"
+        ]
+    }
+]

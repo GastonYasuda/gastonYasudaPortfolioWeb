@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaston Yasuda</title>
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400;1,700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="homeContent">
+
+        <div id="home" class="home">
+
+            <div class="menu">
+                <a href="#aboutMe">About me</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+
+
+
+            <div class="hero">
+
+                <div class="heroTxt">
+                    <div class="heroTxt__content">
+
+                        <span class="heroTxt_nombre">Gastón Yasuda</span>
+                        <span class="heroTxt__front">Front-end developer</span>
+
+                    </div>
+                </div>
+
+                <div class="heroImg">
+                    <img class="logoHtml" src="./assets/html.png" alt="html">
+                    <img class="logoCss" src="./assets/css.png" alt="css">
+                    <img class="logoJs" src="./assets/javascript.png" alt="javascript">
+                    <img class="logoReact" src="./assets/react.png" alt="react">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <button class="flechaVolverArriba">
+        <a href="#home">
+            <img src="./assets/subir.svg" alt="flecha subir">
+        </a>
+    </button>
+
+
+
+
+    <div class="aboutMe contenedores" id="aboutMe">
+
+        <div class="aboutMe_title title">
+            <span>About me</span>
+        </div>
+
+        <div class="aboutMe_txt">
+
+            <p>
+                Estoy en busqueda de mi primer empleo IT.
+                Quiero crecer como profesional utilizando las herramientas y conocimientos que fui obteniendo, e
+                incorporar
+                nuevas habilidades y experiencias.
+            </p>
+
+            <button class="mostrarPDF" onclick="abrirCerrar()">
+                <img src="./assets/document.svg" alt="document">
+                <span class="mostrarPDF__txt">VER C.V.</span>
+            </button>
+
+        </div>
+
+
+        <div class="aboutMe_img">
+            <img src="./assets/thinking.svg" alt="thinking">
+        </div>
+
+        <div class="aboutMe_programs">
+            <img class="aiIcon" src="./assets/program/ai.png" alt="illustrator">
+            <img class="psIcon" src="./assets/program/ps.png" alt="photoshop">
+            <img class="idIcon" src="./assets/program/id.png" alt="indesign">
+            <img class="figmaIcon" src="./assets/program/figma.png" alt="figma">
+            <img class="gitIcon" src="./assets/program/github.png" alt="github">
+            <img class="htmlIcon" src="./assets/html.png" alt="html">
+            <img class="cssIcon" src="./assets/css.png" alt="css">
+            <img class="jsIcon" src="./assets/javascript.png" alt="javascript">
+            <img class="reactIcon" src="./assets/react.png" alt="react">
+        </div>
+
+
+        <div id="dondeMuestroPDF" class="mostrarPDFStyle">
+
+            <div class="centrarPdf">
+                <object class="pdfSize" data="./assets/cvGastonYasuda.pdf" type="application/pdf"></object>
+
+                <button class=" cerrar" onclick="abrirCerrar()">X</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="proyectos contenedores" id="proyectos">
+        <div class="portfolio_txt title">
+            <span>Proyectos</span>
+        </div>
+    </div>
+
+
+
+
+    <div class="portfolio contenedores" id="portfolio">
+        <div class="portfolio_txt title">
+            <span>Portfolio diseño</span>
+        </div>
+        <div id="muestroPortfolio"></div>
+    </div>
+
+
+
+
+
+    <div class="footerContacto  contenedores">
+
+        <div class="footerLogo">
+            <div class="footerLogo__img">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+            <div class="footerLogo__txt">
+                <div class="footerLogo__txt-container">
+
+                    <span class="heroTxt_nombre">Gastón Yasuda</span>
+                    <span class="heroTxt_front">Front-end developer</span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="links">
+
+            <div class="linkedin">
+
+                <a href="https://linkedin.com/in/gaston-yasuda" target="_blank">
+                    <img src="./assets/linkedin-logo.png" alt="linkedin">
+                </a>
+
+            </div>
+
+            <div class="behance">
+
+                <a href="https://behance.net/gaston-yasuda" target="_blank">
+                    <img src="./assets/behance.png" alt="behance">
+                </a>
+
+            </div>
+
+            <div class="github">
+
+                <a href="https://github.com/GastonYasuda/" target="_blank">
+                    <img src="./assets/github-white.png" alt="github">
+                </a>
+
+            </div>
+        </div>
+        <div class="agradecimiento ">
+            <span>Gracias por visitar! :&rpar;</span>
+        </div>
+
+        <div class=" footerFooter">
+            <span>©2023 | </span>
+            <span class="footerFooterLighter"> reservados - Gaston Yasuda</span>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

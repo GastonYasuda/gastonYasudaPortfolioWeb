@@ -1,0 +1,581 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* ----------------------------------GENERAL */
+
+.contenedores {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 50px 0 35px;
+}
+
+.flechaVolverArriba {
+    z-index: 10;
+    position: fixed;
+    bottom: 20px;
+    width: 60px;
+    right: 35px;
+    border: none;
+    background: transparent;
+}
+
+
+/* ----------------------------------HOME */
+
+.homeContent {
+    position: relative;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    min-height: 270px;
+    max-height: 400px;
+    padding: 25px;
+    background-color: #DF5D26;
+    position: relative;
+}
+
+
+/* ----------------------------------MENU */
+.menu {
+    padding-right: 25px;
+    position: absolute;
+    right: 3%;
+}
+
+.menu a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.5s;
+
+}
+
+.menu a:hover {
+    color: #5442dc;
+}
+
+/* ----------------------------------HERO */
+.hero {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.heroTxt {
+    width: 100%;
+    filter: drop-shadow(-30px 3px 55px rgba(0, 0, 0, 0.40));
+    padding-left: 30px;
+    position: absolute;
+    left: 22px;
+    top: 88px;
+}
+
+.heroTxt__content {
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heroTxt_nombre {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.heroTxt__front {
+    padding-left: 22px;
+}
+
+.heroTxt_nombre::before {
+    content: "<";
+}
+
+.heroTxt_nombre::after {
+    content: "/>";
+}
+
+.heroImg {
+    position: absolute;
+    padding: 25px;
+    right: 0;
+    top: 120px;
+}
+
+.heroImg img {
+    filter: drop-shadow(-30px 3px 55px rgba(0, 0, 0, 0.40));
+    margin: 8px;
+
+}
+
+
+.logoHtml {
+    max-width: 120px;
+    transition: transform 0.5s;
+}
+
+.logoCss {
+    max-width: 120px;
+    transition: transform 0.5s;
+}
+
+.logoJs {
+    max-width: 120px;
+    transition: transform 0.5s;
+
+}
+
+.logoReact {
+    max-width: 120px;
+    transition: transform 0.5s;
+}
+
+.logoHtml:hover,
+.logoCss:hover,
+.logoJs:hover,
+.logoReact:hover {
+    transform: scale(1.3);
+}
+
+
+/* -----------------------------------HOVER */
+
+
+.logoHtml:hover .heroImg {
+    background-color: #DF5D26;
+}
+
+.logoCss:hover .logoHtml {
+    background-color: blue !important;
+    opacity: 0;
+}
+
+.logoCss:hover~.logoHtml {
+    background-color: #2965F1;
+}
+
+.logoJs:hover~.logoCss {
+    background-color: #E5E5E5;
+}
+
+/* .logoJs:hover~.logoReact {
+    background-color: #E5E5E5;
+} */
+
+.logoReact:hover~.home {
+    background-color: #00CCFF;
+}
+
+/* -----------------------------------ABOUT ME */
+
+.aboutMe {
+    width: 80%;
+    margin: 60px auto;
+    position: relative;
+}
+
+.aboutMe_title::before {
+    content: "<";
+}
+
+.aboutMe_title::after {
+    content: "/>";
+}
+
+.aboutMe_txt {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe_img {
+    margin-top: -100px;
+}
+
+.aboutMe_programs {
+    margin-top: -30px;
+}
+
+.aiIcon,
+.psIcon,
+.idIcon,
+.figmaIcon,
+.gitIcon,
+.htmlIcon,
+.cssIcon,
+.jsIcon,
+.reactIcon {
+    margin: 0 3px;
+    transition: transform 0.5s;
+}
+
+.aiIcon:hover,
+.psIcon:hover,
+.idIcon:hover,
+.figmaIcon:hover,
+.gitIcon:hover,
+.htmlIcon:hover,
+.cssIcon:hover,
+.jsIcon:hover,
+.reactIcon:hover {
+    transform: scale(1.3);
+
+}
+
+
+
+
+.aboutMe_programs img {
+    width: 50px;
+}
+
+
+
+/* -----------------------------------BOTON PDF */
+
+.mostrarPDF {
+    align-self: flex-end;
+    padding: 10px 16px;
+    background: #5442dc;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    min-height: 53px;
+    border: none;
+    margin: 15px 0 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 6;
+    transition: background 0.5s;
+}
+
+.mostrarPDF:hover {
+    background: #DF5D26;
+}
+
+.mostrarPDF img {
+    width: 26px;
+}
+
+.mostrarPDF__txt {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 5px;
+    z-index: 5;
+}
+
+
+/* -----------------------------------DONDE MOSTRAR PDF */
+#dondeMuestroPDF {
+    position: absolute;
+    top: 340px;
+}
+
+.mostrarPDFStyle {
+    display: none;
+    position: absolute;
+    z-index: 5;
+}
+
+.centrarPdf {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pdfSize {
+    width: 80vw;
+    height: 648px;
+    border-radius: 20px;
+
+}
+
+.cerrar {
+    background: #5442dc;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    pointer-events: all;
+    width: 65px;
+    height: 50px;
+    margin-left: 10px;
+    transition: background 0.5s;
+}
+
+.cerrar:hover {
+    background: #DF5D26;
+}
+
+
+/* -----------------------------------PROYECTOS */
+
+.proyectos {
+    margin-top: 30px;
+    margin: auto;
+}
+
+.proyectoUl,
+.contenedorUlTrabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyectoLi {
+    width: 310px;
+    border-radius: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    align-content: center;
+    -webkit-box-shadow: -6px 2px 32px 7px #00000038;
+    -moz-box-shadow: -6px 2px 32px 7px rgba(0, 0, 0, 0.22);
+    box-shadow: -6px 2px 32px 7px rgba(0, 0, 0, 0.22);
+}
+
+.proyectoLi__titulo {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.imgEjemplo {
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.22);
+    transition: transform .5s;
+}
+
+.imgEjemplo:hover {
+    transform: scale(1.1);
+}
+
+.imgEjemplo img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.proyectoLi__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 5px;
+}
+
+.proyectoLi__links-content {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.proyectoLi__links-content a {
+    font-size: 14px;
+}
+
+.proyectoLi__links-content img {
+    width: 20px;
+    margin-right: 7px;
+}
+
+
+
+/* -----------------------------------PORTFOLIO PICOS */
+
+.portfolio_txt::before {
+    content: "<";
+}
+
+.portfolio_txt::after {
+    content: "/>";
+}
+
+
+/* -----------------------------------PORTFOLIO */
+.portfolio {
+    margin: auto;
+}
+
+#muestroPortfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedorUlTrabajos {
+    width: 250px;
+    border-radius: 12px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: -6px 2px 32px 7px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: -6px 2px 32px 7px rgba(0, 0, 0, 0.22);
+    box-shadow: -6px 2px 32px 7px rgba(0, 0, 0, 0.22);
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liTrabajo {
+
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: column;
+}
+
+.liTrabajo__titulo {
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.liTrabajo__descripcion {
+    font-weight: 300;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.liTrabajo__img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    transition: all 1s ease-in-out;
+}
+
+.programasUtilizados {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenProgramasUtilizados img {
+    width: 30px;
+    margin: 10px 5px;
+}
+
+
+/* -----------------------------------FOOTERCONTACTO */
+
+.footerContacto {
+    width: 100%;
+    color: #fff;
+    background-color: #5442dc;
+    margin: 50px auto 0;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+
+.footerLogo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.footerLogo__img {
+    position: absolute;
+    top: -26px;
+}
+
+.footerLogo img {
+    filter: drop-shadow(-8px 4px 12px rgba(0, 0, 0, 0.4));
+    margin: 10px;
+}
+
+.footerLogo__txt {
+    padding: 85px 0 0;
+    width: 100%;
+    filter: drop-shadow(-30px 3px 55px rgba(0, 0, 0, 0.40));
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLogo__txt-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroTxt_front {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    padding-top: 20px;
+}
+
+.linkedin,
+.behance,
+.github {
+    margin: 20px 10px;
+    transition: transform 0.5s;
+}
+
+.linkedin:hover,
+.behance:hover,
+.github:hover {
+    transform: scale(1.3);
+}
+
+
+
+.linkedin a img,
+.behance a img,
+.github a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.agradecimiento {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footerFooter {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.footerFooterLighter {
+    font-weight: 300;
+    padding-left: 10px;
+}

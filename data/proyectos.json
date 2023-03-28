@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "foto": "./assets/proyectos/imgJs.png",
+        "titulo": "Trabajo final JS - Coderhouse",
+        "webName": "wakabasoccershop-javascript",
+        "linkWeb": "https://wakabasoccershop-javascript.netlify.app/",
+        "gitName": "github.com/wakabasoccershop-javascript",
+        "linkGit": "https://github.com/GastonYasuda/wakabaSoccerJavascript"
+    },
+    {
+        "id": 2,
+        "foto": "./assets/proyectos/imgReact.png",
+        "titulo": "Trabajo final React.js - Coderhouse",
+        "webName": "wakabasoccershop-react",
+        "linkWeb": "https://wakabasoccerapp-react.netlify.app",
+        "gitName": "github.com/wakabasoccershop-react",
+        "linkGit": "https://github.com/GastonYasuda/reactWakabaSoccerApp"
+    }
+]
