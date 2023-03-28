@@ -16,5 +16,14 @@
         "linkWeb": "https://wakabasoccerapp-react.netlify.app",
         "gitName": "github.com/wakabasoccershop-react",
         "linkGit": "https://github.com/GastonYasuda/reactWakabaSoccerApp"
+    },
+    {
+        "id": 3,
+        "foto": "./assets/proyectos/imgWeb.png",
+        "titulo": "Página web portfolio",
+        "webName": "Porfolio Gatón Yasuda",
+        "linkWeb": "https://gastonyasudaportfolio.netlify.app/",
+        "gitName": "github.com/gastonYasudaPortfolioWeb",
+        "linkGit": "https://github.com/GastonYasuda/gastonYasudaPortfolioWeb"
     }
 ]
