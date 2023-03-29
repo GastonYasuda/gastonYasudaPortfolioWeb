@@ -352,6 +352,17 @@ html {
     padding: 5px;
 }
 
+.proyectoLi__links a {
+    font-weight: 300;
+    transition: transform 0.5s;
+
+}
+
+.proyectoLi__links a:hover {
+    transform: scale(1.03);
+    font-weight: 500;
+}
+
 .proyectoLi__links-content {
     display: flex;
     align-items: center;
