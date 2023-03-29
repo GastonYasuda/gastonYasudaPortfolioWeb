@@ -1,6 +1,10 @@
 let portfolio = document.getElementById('portfolio')
 const mostrarPDF = document.getElementById("mostrarPDF")
 
+//-----------------------------------------------------------HOVER CHANGE-COLOR
+function changeBg(color) {
+    document.getElementById('home').style.backgroundColor = color;
+}
 
 //-----------------------------------------------------------BOTON MOSTRAR CV
 
