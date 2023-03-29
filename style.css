@@ -145,6 +145,7 @@ html {
 .logoJs:hover,
 .logoReact:hover {
     transform: scale(1.3);
+    z-index: 5;
 }
 
 
