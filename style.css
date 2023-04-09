@@ -559,9 +559,9 @@ html {
     padding-left: 10px;
 }
 
-/* -----------------------------------SMARTPHONE 600 */
+/* -----------------------------------SMARTPHONE 950 */
 
-@media (max-width: 701px) {
+@media (max-width: 950px) {
     .menu {
         padding-right: 0;
         position: relative;
@@ -587,11 +587,12 @@ html {
     }
 
     .heroImg img {
-        min-width: 20%;
+        min-width: 40px;
+        width: 120px;
     }
 
     .aboutMe {
-        margin: 20px auto;
+        margin: 5% auto;
     }
 
     .aboutMe_txt {
@@ -632,6 +633,5 @@ html {
         top: -30px;
         right: 2px;
     }
-
 
 }
