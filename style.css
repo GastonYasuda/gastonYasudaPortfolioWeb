@@ -107,7 +107,7 @@ html {
 }
 
 .heroTxt__front {
-    padding-left: 22px;
+    padding-left: 27px;
 }
 
 .heroTxt__nombre::before {
@@ -231,7 +231,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    z-index: 6;
+    z-index: 90;
     transition: background 0.5s;
 }
 
@@ -264,10 +264,10 @@ html {
 }
 
 .centrarPdf {
-    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
+    filter: drop-shadow(-1px 13px 8px rgba(0, 0, 0, 0.5));
 }
 
 .pdfSize {
@@ -303,6 +303,7 @@ html {
 
 .proyectoUl,
 .contenedorUlTrabajos {
+    z-index: -1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -464,7 +465,7 @@ html {
 .footerContacto {
     width: 100%;
     color: #fff;
-    background-color: #5442dc;
+    background-color: #DF5D26;
     margin: 50px auto 0;
     padding-bottom: 30px;
     position: relative;
@@ -481,8 +482,8 @@ html {
 }
 
 .footerLogo__img {
-    position: absolute;
-    top: -26px;
+    padding: 35px 0 0;
+
 }
 
 .footerLogo img {
@@ -491,7 +492,7 @@ html {
 }
 
 .footerLogo__txt {
-    padding: 85px 0 0;
+    padding: 35px 0 0;
     width: 100%;
     filter: drop-shadow(-2px 3px 4px rgba(0, 0, 0, 0.40));
     padding-left: 30px;

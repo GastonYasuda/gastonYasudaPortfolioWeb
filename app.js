@@ -4,6 +4,7 @@ const mostrarPDF = document.getElementById("mostrarPDF")
 //-----------------------------------------------------------HOVER CHANGE-COLOR
 function changeBg(color) {
     document.getElementById('home').style.backgroundColor = color;
+    document.getElementById('footerContacto').style.backgroundColor = color;
 }
 
 //-----------------------------------------------------------BOTON MOSTRAR CV
@@ -22,6 +23,7 @@ const portfolio_proyectos = document.getElementById("portfolio_proyectos")
 
 let proyectosUl = document.createElement("ul")
 proyectosUl.className = "proyectoUl"
+proyectosUl.setAttribute('data-aos', 'fade-left')
 proyectos.appendChild(proyectosUl)
 
 fetch("./data/proyectos.json")
@@ -60,6 +62,7 @@ fetch("./data/proyectos.json")
 
 
 //-----------------------------------------------------------TRABAJOS
+
 const muestroPortfolio = document.getElementById("muestroPortfolio")
 
 fetch("./data/trabajos.json")
@@ -69,6 +72,7 @@ fetch("./data/trabajos.json")
 
             let contenedorUlTrabajos = document.createElement("ul")
             contenedorUlTrabajos.className = "contenedorUlTrabajos"
+            contenedorUlTrabajos.setAttribute('data-aos', 'fade-up')
             muestroPortfolio.appendChild(contenedorUlTrabajos)
 
             const dataKey = data[key]

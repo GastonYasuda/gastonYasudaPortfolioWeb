@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaston Yasuda</title>
     <link rel="icon" href="./assets/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
 <body>
     <div class="homeContent">
 
-        <div id="home" class="home">
+        <div id="home" class="home" data-aos="fade-down">
 
             <div class="menu">
                 <a href="#aboutMe">About me</a>
@@ -31,7 +32,7 @@
 
             <div class="hero">
 
-                <div class="heroTxt">
+                <div class="heroTxt" data-aos="fade-right">
                     <div class="heroTxt__content">
 
                         <span class="heroTxt__nombre">Gastón Yasuda</span>
@@ -40,7 +41,7 @@
                     </div>
                 </div>
 
-                <div class="heroImg">
+                <div class="heroImg" data-aos="fade-down">
                     <img class="logoHtml" onmouseover="changeBg(`#e76127`)" src="./assets/html.png" alt="html">
                     <img class="logoCss" onmouseover="changeBg(`#275fe4`)" src="./assets/css.png" alt="css">
                     <img class="logoJs" onmouseover="changeBg(`#f4cf37`)" src="./assets/javascript.png"
@@ -63,7 +64,7 @@
 
 
 
-    <div class="aboutMe contenedores" id="aboutMe">
+    <div class="aboutMe contenedores" id="aboutMe" data-aos="fade-right">
 
         <div class="aboutMe_title title">
             <span>About me</span>
@@ -124,8 +125,6 @@
     </div>
 
 
-
-
     <div class="portfolio contenedores" id="portfolio">
         <div class="portfolio_txt title">
             <span>Portfolio diseño</span>
@@ -134,20 +133,17 @@
     </div>
 
 
+    <div class="footerContacto  contenedores" id="footerContacto">
 
-
-
-    <div class="footerContacto  contenedores">
-
-        <div class="footerLogo">
+        <div class=" footerLogo">
             <div class="footerLogo__img">
                 <img src="./assets/logo.png" alt="logo">
             </div>
             <div class="footerLogo__txt">
                 <div class="footerLogo__txt-container">
 
-                    <span class="heroTxt_nombre">Gastón Yasuda</span>
-                    <span class="heroTxt_front">Front-end developer</span>
+                    <span class="heroTxt__nombre">Gastón Yasuda</span>
+                    <span class="heroTxt__front">Front-end developer</span>
 
                 </div>
             </div>
@@ -192,10 +188,13 @@
     </div>
 
 
-
-
-
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500
+        });
+    </script>
 </body>
 
 </html>
