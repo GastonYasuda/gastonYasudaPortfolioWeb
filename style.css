@@ -253,8 +253,7 @@ html {
 
 /* -----------------------------------DONDE MOSTRAR PDF */
 #dondeMuestroPDF {
-    position: absolute;
-    top: 340px;
+    position: relative;
 }
 
 .mostrarPDFStyle {
