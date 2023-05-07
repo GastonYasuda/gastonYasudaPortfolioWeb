@@ -2,28 +2,85 @@
     {
         "id": 1,
         "foto": "./assets/proyectos/imgJs.png",
-        "titulo": "Trabajo final JS - Coderhouse",
         "webName": "wakabasoccershop-javascript",
         "linkWeb": "https://wakabasoccershop-javascript.netlify.app/",
         "gitName": "github.com/wakabasoccershop-javascript",
-        "linkGit": "https://github.com/GastonYasuda/wakabaSoccerJavascript"
+        "linkGit": "https://github.com/GastonYasuda/wakabaSoccerJavascript",
+        "titulo": "Entrega final del curso de Javascript en CODERHOUSE.",
+        "projectInfo": {
+            "text": "Me propuse crear una página e-commerce de camisetas de fútbol que sea funcional. En esta página se pueden buscar las camisetas por equipo o por precio, también se puede seleccionar la cantidad de camisetas y agregarlas al carrito de compras donde el monto total de esté reflejado junto al botón del carrito de compras, que nos deriva a una nueva pantalla donde encontramos las camisetas ingresadas al carrito, y estas pueden ser eliminados.",
+            "usado": [
+                {
+                    "item": "Interacciones en el DOM."
+                },
+                {
+                    "item": "Interacciones con el Local Storage."
+                },
+                {
+                    "item": "Interacciones con API externa (https://randomuser.me/)."
+                },
+                {
+                    "item": "Eventos"
+                },
+                {
+                    "item": "Librerías (Toastify, Sweet-Alert)"
+                }
+            ]
+        }
     },
     {
         "id": 2,
         "foto": "./assets/proyectos/imgReact.png",
-        "titulo": "Trabajo final React.js - Coderhouse",
         "webName": "wakabasoccershop-react",
         "linkWeb": "https://wakabasoccerapp-react.netlify.app",
         "gitName": "github.com/wakabasoccershop-react",
-        "linkGit": "https://github.com/GastonYasuda/reactWakabaSoccerApp"
+        "linkGit": "https://github.com/GastonYasuda/reactWakabaSoccerApp",
+        "titulo": "Entrega final del curso de React.js en CODERHOUSE.",
+        "projectInfo": {
+            "text": "Decidí recrear la página e-commerce realizada para la entrega final de Javascript, luego de tomar conocimiento de las cosas que podía con los conocimientos adquiridos en el curso. Esta compuesto por una barra de navegación donde poseen links a las diferentes categorías de los productos, y una pantalla inicial donde muestra todos los productos. Estos productos se encuentran almacenados en Firebase, junto a las ordenes realizadas. Se pueden ver en detalle el producto seleccionado, agregarle cantidad y enviarlo al carrito de compras. También se ver en una nueva pantalla los productos y cantidades seleccionados que están dentro del carrito, las cuales pueden eliminarse. Al realizar la compra , nos actualiza la cantidad de stock que tenemos, y nos genera una orden de compra dentro de Firebase con los datos correspondientes, y nos devuelve por pantalla el ID de la compra realizada.",
+            "usado": [
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "react-boostrap."
+                },
+                {
+                    "item": "react-hook-form."
+                },
+                {
+                    "item": "react-router-dom."
+                },
+                {
+                    "item": "Librerías (Toastify, Sweet-Alert)."
+                },
+                {
+                    "item": "Firebase (database)."
+                },
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Context."
+                }
+            ]
+        }
     },
     {
         "id": 3,
         "foto": "./assets/proyectos/imgWeb.png",
-        "titulo": "Página web portfolio",
         "webName": "Porfolio Gatón Yasuda",
         "linkWeb": "https://gastonyasudaportfolio.netlify.app/",
         "gitName": "github.com/gastonYasudaPortfolioWeb",
-        "linkGit": "https://github.com/GastonYasuda/gastonYasudaPortfolioWeb"
+        "linkGit": "https://github.com/GastonYasuda/gastonYasudaPortfolioWeb",
+        "titulo": "Página web portfolio",
+        "projectInfo": {
+            "text": "Este es mi página realizada en Javascript. Acá intento mostrar los proyectos y trabajos realizados.",
+            "usado": [
+                {
+                    "item": "Librerías (AOS - animation on scroll)."
+                }
+            ]
+        }
     }
 ]

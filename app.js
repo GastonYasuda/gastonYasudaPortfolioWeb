@@ -19,46 +19,122 @@ function abrirCerrar() {
 //-----------------------------------------------------------PROYECTOS
 
 const proyectos = document.getElementById("proyectos")
-const portfolio_proyectos = document.getElementById("portfolio_proyectos")
 
 let proyectosUl = document.createElement("ul")
 proyectosUl.className = "proyectoUl"
 proyectosUl.setAttribute('data-aos', 'fade-left')
 proyectos.appendChild(proyectosUl)
 
+
 fetch("./data/proyectos.json")
     .then(res => res.json())
     .then(data => {
-        for (const key in data) {
+
+        data.forEach(element => {
+
+            let proyectoContainer = document.createElement("div")
+            proyectoContainer.className = "proyectoContainer"
+            proyectosUl.appendChild(proyectoContainer)
+
+            let proyectoTitulo = document.createElement("div")
+            proyectoTitulo.className = "proyectoTitulo"
+            proyectoTitulo.innerHTML = `<h5>${element.titulo}</h5>`
+            proyectoContainer.appendChild(proyectoTitulo)
+
 
             let proyectoLi = document.createElement("li")
             proyectoLi.className = "proyectoLi"
+
             proyectoLi.innerHTML = `
+                    <div class="proyectoLi__img">
+                        <div class="imgEjemplo">
+                            <img src=${element.foto} alt=${element.titulo}  >                         
+                        </div>    
+                            
+                        <div class="proyectoLi__links">                            
+                            <section class="proyectoLi__links-content">
+                                <img src="./assets/program/webSiteIcon.png" alt="web logo">
+                                <a href="${element.linkWeb}" target="_blank">${element.webName}</a>                        
+                            </section>
+                                    
+                            <section class="proyectoLi__links-content">
+                                <img src="./assets/program/github.png" alt="github logo">
+                                <a href="${element.linkGit}" target="_blank">${element.gitName}</a>
+                            </section>
+                        </div>
+                </div>
+              `
+            proyectoContainer.appendChild(proyectoLi)
 
-                    <div class="imgEjemplo">
-                         <img src=${data[key].foto} alt=${data[key].titulo}  >
-                    </div>
+            let descripcionUsadosContenedor = document.createElement('div')
+            descripcionUsadosContenedor.className = "proyectoLi__descUsaContainer"
+            proyectoLi.appendChild(descripcionUsadosContenedor)
 
-                    <span class="proyectoLi__titulo">${data[key].titulo}</span>
 
-                    <div class="proyectoLi__links">
+            let proyectoInfoTexto = document.createElement("div")
+            proyectoInfoTexto.classList = "proyectoLi__descripcion"
 
-                        <section class="proyectoLi__links-content">
-                            <img src="./assets/program/webSiteIcon.png" alt="web logo">
-                            <a href="${data[key].linkWeb}" target="_blank">${data[key].webName}</a>                        
-                        </section>
+            proyectoInfoTexto.innerHTML = `
 
-                        <section class="proyectoLi__links-content">
-                            <img src="./assets/program/github.png" alt="github logo">
-                            <a href="${data[key].linkGit}" target="_blank">${data[key].gitName}</a>
-                        </section>
-                    </div>
+                <p>${element.projectInfo.text}</p>
 
-                    `
-            proyectosUl.appendChild(proyectoLi)
-        }
-    }
-    )
+            `
+
+            descripcionUsadosContenedor.appendChild(proyectoInfoTexto)
+
+
+
+            let proyectoLiContenedor = document.createElement("div")
+            proyectoLiContenedor.classList = "proyectoLi__usados"
+            proyectoLiContenedor.innerHTML = `
+                <h7>Para realizar esta aplicación utilice:</h7>
+            `
+
+            descripcionUsadosContenedor.appendChild(proyectoLiContenedor)
+
+            for (let i = 0; element.projectInfo.usado.length > i; i++) {
+
+                let usadoLi = document.createElement("li")
+                usadoLi.classList = "usadoLi"
+
+                usadoLi.innerHTML = `
+                  <p>- ${element.projectInfo.usado[i].item}</p>
+                  `
+
+                proyectoLiContenedor.appendChild(usadoLi)
+            }
+
+        })
+
+
+        // for (const key in data) {
+
+        //     let used = data[key].projectInfo.usado
+        //     let texto = data[key].projectInfo
+
+        //     let projectInfo = document.getElementById("projectInfo")
+        //     proyectosUl.appendChild(projectInfo)
+
+        //     let projectInfoText = document.createElement("div")
+        //     projectInfoText.innerHTML = `
+        //         <p>${texto.text}</p > 
+        //     `
+        //     projectInfo.appendChild(projectInfoText)
+
+
+        //     for (let i = 0; used.length > i; i++) {
+        //         // console.log(used[i]);
+        //         let projectInfoUl = document.createElement("ul")
+
+        //         projectInfoUl.innerHTML = `
+        //              <p> ${used[i].item}</p>
+        //         `
+        //         projectInfo.appendChild(projectInfoUl)
+        //     }
+        // }
+    })
+
+
 
 
 //-----------------------------------------------------------TRABAJOS
