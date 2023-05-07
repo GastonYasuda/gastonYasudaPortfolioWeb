@@ -78,7 +78,16 @@
             "text": "Este es mi página realizada en Javascript. Acá intento mostrar los proyectos y trabajos realizados.",
             "usado": [
                 {
-                    "item": "Librerías (AOS - animation on scroll)."
+                    "item": "Interacciones en el DOM."
+                },
+                {
+                    "item": "Interacciones con Json interno."
+                },
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Librería (AOS - animation on scroll)."
                 }
             ]
         }
