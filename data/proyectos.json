@@ -8,7 +8,7 @@
         "linkGit": "https://github.com/GastonYasuda/wakabaSoccerJavascript",
         "titulo": "Entrega final del curso de Javascript en CODERHOUSE.",
         "projectInfo": {
-            "text": "Me propuse crear una página e-commerce de camisetas de fútbol que sea funcional. En esta página se pueden buscar las camisetas por equipo o por precio, también se puede seleccionar la cantidad de camisetas y agregarlas al carrito de compras donde el monto total de esté reflejado junto al botón del carrito de compras, que nos deriva a una nueva pantalla donde encontramos las camisetas ingresadas al carrito, y estas pueden ser eliminados.",
+            "text": "Me propuse crear una página e-commerce de camisetas de fútbol que sea funcional.<br/>En esta página se pueden buscar las camisetas por equipo o por precio, también se puede seleccionar la cantidad de camisetas y agregarlas al carrito de compras donde el monto total de esté reflejado junto al botón del carrito de compras, que nos deriva a una nueva pantalla donde encontramos las camisetas ingresadas al carrito, y estas pueden ser eliminados.",
             "usado": [
                 {
                     "item": "Interacciones en el DOM."
@@ -37,7 +37,7 @@
         "linkGit": "https://github.com/GastonYasuda/reactWakabaSoccerApp",
         "titulo": "Entrega final del curso de React.js en CODERHOUSE.",
         "projectInfo": {
-            "text": "Decidí recrear la página e-commerce realizada para la entrega final de Javascript, luego de tomar conocimiento de las cosas que podía con los conocimientos adquiridos en el curso. Esta compuesto por una barra de navegación donde poseen links a las diferentes categorías de los productos, y una pantalla inicial donde muestra todos los productos. Estos productos se encuentran almacenados en Firebase, junto a las ordenes realizadas. Se pueden ver en detalle el producto seleccionado, agregarle cantidad y enviarlo al carrito de compras. También se ver en una nueva pantalla los productos y cantidades seleccionados que están dentro del carrito, las cuales pueden eliminarse. Al realizar la compra , nos actualiza la cantidad de stock que tenemos, y nos genera una orden de compra dentro de Firebase con los datos correspondientes, y nos devuelve por pantalla el ID de la compra realizada.",
+            "text": "Decidí recrear la página e-commerce realizada para la entrega final de Javascript, luego de ver las cosas que podía mejorar con los conocimientos adquiridos en el curso de react.<br/>Esta compuesto por una barra de navegación donde poseen links a las diferentes categorías de los productos, y una pantalla inicial donde muestra todos los productos. Estos productos se encuentran almacenados en Firebase, junto a las ordenes realizadas.<br/>Se pueden ver en detalle el producto seleccionado, agregarle cantidad y enviarlo al carrito de compras. También se ver en una nueva pantalla los productos y cantidades seleccionados que están dentro del carrito, las cuales pueden eliminarse.<br/>Al realizar la compra , nos actualiza la cantidad de stock que tenemos, y nos genera una orden de compra dentro de Firebase con los datos correspondientes, y nos devuelve por pantalla el ID de la compra realizada.",
             "usado": [
                 {
                     "item": "Hooks."
@@ -75,7 +75,7 @@
         "linkGit": "https://github.com/GastonYasuda/gastonYasudaPortfolioWeb",
         "titulo": "Página web portfolio",
         "projectInfo": {
-            "text": "Este es mi página realizada en Javascript. Acá intento mostrar los proyectos y trabajos realizados.",
+            "text": "Este es mi página realizada en Javascript.<br/>Acá intento mostrar los proyectos y trabajos realizados.",
             "usado": [
                 {
                     "item": "Interacciones en el DOM."
@@ -88,6 +88,47 @@
                 },
                 {
                     "item": "Librería (AOS - animation on scroll)."
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "foto": "./assets/proyectos/universoVerde.jpg",
+        "webName": "Universo-verde-app ",
+        "linkWeb": "https://universo-verde-vercel.vercel.app/",
+        "gitName": "github.com/TimoteoGambella/UniversoVerde",
+        "linkGit": "https://github.com/TimoteoGambella/UniversoVerde",
+        "titulo": "Universo verde",
+        "projectInfo": {
+            "text": "Este es un proyecto que surge de una iniciativa de un lider (<a href='https://www.linkedin.com/in/timoteo-gambella-4b6418210/' target=`_blank`>Timoteo Gambella</a>), la cual consistió en conectar un diseñador junior y un desarrollador react junior, para llevar a cabo un proyecto 'ficticio', con el objetivo de que ambos ganemos experiencia desarrollando y diseñando.<br/>Esta es una aplicación móvil.<br/> Más detalles en siguiente link:  <a href='https://www.linkedin.com/feed/update/urn:li:activity:7057789330483773440/' target=`_blank`>Universo-Verde</a>",
+            "usado": [
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "react-boostrap."
+                },
+                {
+                    "item": "react-hook-form."
+                },
+                {
+                    "item": "react-router-dom."
+                },
+                {
+                    "item": "bootstrap-react."
+                },
+                {
+                    "item": "Context."
+                },
+                {
+                    "item": "Firebase (database)."
+                },
+                {
+                    "item": "Librería (email.js, Facebook-login, Google-login,  react-toastify, Sweet-alert, Sass)."
                 }
             ]
         }
