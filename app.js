@@ -22,6 +22,7 @@ const proyectos = document.getElementById("proyectos")
 
 let proyectosUl = document.createElement("ul")
 proyectosUl.className = "proyectoUl"
+
 proyectos.appendChild(proyectosUl)
 
 
@@ -33,7 +34,7 @@ fetch("./data/proyectos.json")
 
             let proyectoContainer = document.createElement("div")
             proyectoContainer.className = "proyectoContainer"
-            proyectoContainer.setAttribute('data-aos', 'fade-left')
+            proyectoContainer.setAttribute('data-aos', 'fade-down')
             proyectosUl.appendChild(proyectoContainer)
 
             let proyectoTitulo = document.createElement("div")
@@ -77,12 +78,9 @@ fetch("./data/proyectos.json")
             proyectoInfoTexto.innerHTML = `
 
                 <p>${element.projectInfo.text}</p>
-
             `
 
             descripcionUsadosContenedor.appendChild(proyectoInfoTexto)
-
-
 
             let proyectoLiContenedor = document.createElement("div")
             proyectoLiContenedor.classList = "proyectoLi__usados"
@@ -103,35 +101,7 @@ fetch("./data/proyectos.json")
 
                 proyectoLiContenedor.appendChild(usadoLi)
             }
-
         })
-
-
-        // for (const key in data) {
-
-        //     let used = data[key].projectInfo.usado
-        //     let texto = data[key].projectInfo
-
-        //     let projectInfo = document.getElementById("projectInfo")
-        //     proyectosUl.appendChild(projectInfo)
-
-        //     let projectInfoText = document.createElement("div")
-        //     projectInfoText.innerHTML = `
-        //         <p>${texto.text}</p > 
-        //     `
-        //     projectInfo.appendChild(projectInfoText)
-
-
-        //     for (let i = 0; used.length > i; i++) {
-        //         // console.log(used[i]);
-        //         let projectInfoUl = document.createElement("ul")
-
-        //         projectInfoUl.innerHTML = `
-        //              <p> ${used[i].item}</p>
-        //         `
-        //         projectInfo.appendChild(projectInfoUl)
-        //     }
-        // }
     })
 
 
