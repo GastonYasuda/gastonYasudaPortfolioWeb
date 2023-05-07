@@ -111,6 +111,7 @@ fetch("./data/proyectos.json")
 
 const muestroPortfolio = document.getElementById("muestroPortfolio")
 
+
 fetch("./data/trabajos.json")
     .then(res => res.json())
     .then(data => {
@@ -118,20 +119,20 @@ fetch("./data/trabajos.json")
 
             let contenedorUlTrabajos = document.createElement("ul")
             contenedorUlTrabajos.className = "contenedorUlTrabajos"
-            contenedorUlTrabajos.setAttribute('data-aos', 'fade-up')
+            contenedorUlTrabajos.setAttribute('data-aos', 'fade-left')
             muestroPortfolio.appendChild(contenedorUlTrabajos)
 
             const dataKey = data[key]
 
             let liTrabajo = document.createElement("li")
             liTrabajo.className = "liTrabajo"
+
             liTrabajo.innerHTML = `
                     <div class="liTrabajo__img">    
                         <img src="${dataKey.foto}" alt="${dataKey.titulo}">
                     </div>
                     <span class="liTrabajo__titulo">${dataKey.titulo}</span>
                     <span class="liTrabajo__descripcion">${dataKey.descripcion}</span>
-
                     `
             contenedorUlTrabajos.appendChild(liTrabajo)
 
@@ -143,12 +144,8 @@ fetch("./data/trabajos.json")
                 let imagenProgramasUtilizados = document.createElement("div")
                 imagenProgramasUtilizados.className = "imagenProgramasUtilizados"
                 imagenProgramasUtilizados.innerHTML = `
-
                      <img src=${dataKey["programa"][i]} alt="dataKey.titulo">
-
                      `
-
-
                 programasUtilizados.appendChild(imagenProgramasUtilizados)
             }
             liTrabajo.appendChild(programasUtilizados)
