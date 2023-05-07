@@ -22,7 +22,6 @@ const proyectos = document.getElementById("proyectos")
 
 let proyectosUl = document.createElement("ul")
 proyectosUl.className = "proyectoUl"
-proyectosUl.setAttribute('data-aos', 'fade-left')
 proyectos.appendChild(proyectosUl)
 
 
@@ -34,6 +33,7 @@ fetch("./data/proyectos.json")
 
             let proyectoContainer = document.createElement("div")
             proyectoContainer.className = "proyectoContainer"
+            proyectoContainer.setAttribute('data-aos', 'fade-left')
             proyectosUl.appendChild(proyectoContainer)
 
             let proyectoTitulo = document.createElement("div")
