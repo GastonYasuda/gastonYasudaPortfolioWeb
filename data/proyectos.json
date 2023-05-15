@@ -132,5 +132,38 @@
                 }
             ]
         }
+    },
+    ,
+    {
+        "id": 4,
+        "foto": "./assets/proyectos/universoVerde.jpg",
+        "webName": "Poke-dex-app",
+        "linkWeb": "https://gaston-pokedex-app.netlify.app/",
+        "gitName": "github.com/GastonYasuda/Poke-Dex-App",
+        "linkGit": "https://github.com/GastonYasuda/Poke-Dex-App",
+        "titulo": "Poke-dex-app",
+        "projectInfo": {
+            "text": "En este proyecto fue realizado con la intención de ganar experiencia con el uso de APIs, donde muestro todos los pokemones y al seleccionar uno de ellos me muestra la generación a la que pertenece, sus características, sus habilidades y su cadena de evolución (si es que la tiene).",
+            "usado": [
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "react-boostrap."
+                },
+                {
+                    "item": "react-router-dom."
+                },
+                {
+                    "item": "bootstrap-react."
+                },
+                {
+                    "item": "Context."
+                }
+            ]
+        }
     }
 ]
