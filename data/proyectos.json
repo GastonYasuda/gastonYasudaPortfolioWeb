@@ -133,10 +133,9 @@
             ]
         }
     },
-    
     {
         "id": 4,
-        "foto": "./assets/proyectos/universoVerde.jpg",
+        "foto": "./assets/proyectos/pokemon-app.jpg",
         "webName": "Poke-dex-app",
         "linkWeb": "https://gaston-pokedex-app.netlify.app/",
         "gitName": "github.com/GastonYasuda/Poke-Dex-App",
@@ -162,6 +161,9 @@
                 },
                 {
                     "item": "Context."
+                },
+                {
+                    "item": "Responsive design."
                 }
             ]
         }
