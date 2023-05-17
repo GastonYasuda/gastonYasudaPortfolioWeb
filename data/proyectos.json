@@ -142,7 +142,7 @@
         "linkGit": "https://github.com/GastonYasuda/Poke-Dex-App",
         "titulo": "Poke-dex-app",
         "projectInfo": {
-            "text": "En este proyecto fue realizado con la intención de ganar experiencia con el uso de APIs, donde muestro todos los pokemones y al seleccionar uno de ellos me muestra la generación a la que pertenece, sus características, sus habilidades y su cadena de evolución (si es que la tiene).",
+            "text": "En este proyecto fue realizado con la intención de ganar experiencia con el uso de APIs, donde muestro todos los pokemones y al seleccionar uno de ellos me muestra la generación a la que pertenece, sus características y sus habilidades.",
             "usado": [
                 {
                     "item": "Eventos."
