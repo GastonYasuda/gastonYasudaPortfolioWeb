@@ -136,11 +136,11 @@
     {
         "id": 4,
         "foto": "./assets/proyectos/pokemon-app.jpg",
-        "webName": "Poke-dex-app",
+        "webName": "Poke-Dex-App",
         "linkWeb": "https://gaston-pokedex-app.netlify.app/",
         "gitName": "github.com/GastonYasuda/Poke-Dex-App",
         "linkGit": "https://github.com/GastonYasuda/Poke-Dex-App",
-        "titulo": "Poke-dex-app",
+        "titulo": "Poke-Dex-App",
         "projectInfo": {
             "text": "En este proyecto fue realizado con la intención de ganar experiencia con el uso de APIs, donde muestro todos los pokemones y al seleccionar uno de ellos me muestra la generación a la que pertenece, sus características y sus habilidades.",
             "usado": [
