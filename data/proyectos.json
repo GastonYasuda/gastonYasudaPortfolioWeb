@@ -170,5 +170,43 @@
                 }
             ]
         }
+    },
+    {
+        "id": 5,
+        "foto": "./assets/proyectos/imgInventario.png",
+        "webName": "Inventario-App",
+        "linkWeb": "https://escalada-bazar-app.netlify.app/",
+        "gitName": "github.com/GastonYasuda/inventario-app",
+        "linkGit": "https://github.com/GastonYasuda/inventario-app",
+        "titulo": "Poke-Dex-App",
+        "projectInfo": {
+            "text": "Este es un proyecto donde se puede controlar el stock de un bazar. En la pantalla principal podemos ver todas las marcas con las que trabaja el local, al ingresar a una de ellas muestra todos los productos de esa marca, donde podemos ver el nombre del producto, imagen, codigo, precio, y stock. <br/> Al ingresar al producto se puede ver en una nueva pantalla el producto con los mismos detalles y un boton para editar la cantidad de stock. <br/> Estos datos se encuentran almacenados en el Firebase.<br/> App unicamente para versión celular.",
+            "usado": [
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "react-boostrap."
+                },
+                {
+                    "item": "react-router-dom."
+                },
+                {
+                    "item": "bootstrap-react."
+                },
+                {
+                    "item": "Context."
+                },
+                {
+                    "item": "Firestore database."
+                },
+                {
+                    "item": "Librerías (Sweet-Alert)."
+                }
+            ]
+        }
     }
 ]
