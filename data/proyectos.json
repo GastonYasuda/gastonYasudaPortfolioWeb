@@ -195,7 +195,42 @@
                     "item": "react-router-dom."
                 },
                 {
-                    "item": "bootstrap-react."
+                    "item": "Context."
+                },
+                {
+                    "item": "Firestore database."
+                },
+                {
+                    "item": "Librerías (Sweet-Alert)."
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "foto": "./assets/proyectos/dontforget-img.jpg",
+        "webName": "Don't forget apli",
+        "linkWeb": "https://dont-forget-apli.netlify.app/",
+        "gitName": "github.com/GastonYasuda/dont-forget-apli",
+        "linkGit": "https://github.com/GastonYasuda/dont-forget-apli",
+        "titulo": "Don't forget apli",
+        "projectInfo": {
+            "text": "Este es un proyecto que lo comencé solamente para practicar un simple to do list. A medida que iba avanzando se me iban ocurriendo algunas ideas como poder loguearse y que cada usuario tenga su listas de tareas guardadas para un futuro.",
+            "usado": [
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "react-boostrap."
+                },
+                {
+                    "item": "react-router-dom."
+                },
+                {
+                    "item": "google login."
                 },
                 {
                     "item": "Context."
