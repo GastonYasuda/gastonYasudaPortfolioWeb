@@ -30,7 +30,7 @@ fetch("./data/proyectos.json")
     .then(res => res.json())
     .then(data => {
 
-        data.forEach(element => {
+        data.reverse().forEach(element => {
 
             let proyectoContainer = document.createElement("div")
             proyectoContainer.className = "proyectoContainer"

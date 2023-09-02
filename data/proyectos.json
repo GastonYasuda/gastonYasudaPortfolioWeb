@@ -6,7 +6,7 @@
         "linkWeb": "https://wakabasoccershop-javascript.netlify.app/",
         "gitName": "github.com/wakabasoccershop-javascript",
         "linkGit": "https://github.com/GastonYasuda/wakabaSoccerJavascript",
-        "titulo": "Entrega final del curso de Javascript en CODERHOUSE.",
+        "titulo": "Entrega final del curso de Javascript en CODERHOUSE - 2022",
         "projectInfo": {
             "text": "Me propuse crear una página e-commerce de camisetas de fútbol que sea funcional.<br/>En esta página se pueden buscar las camisetas por equipo o por precio, también se puede seleccionar la cantidad de camisetas y agregarlas al carrito de compras donde el monto total de esté reflejado junto al botón del carrito de compras, que nos deriva a una nueva pantalla donde encontramos las camisetas ingresadas al carrito, y estas pueden ser eliminados.",
             "usado": [
@@ -35,7 +35,7 @@
         "linkWeb": "https://wakabasoccerapp-react.netlify.app",
         "gitName": "github.com/wakabasoccershop-react",
         "linkGit": "https://github.com/GastonYasuda/reactWakabaSoccerApp",
-        "titulo": "Entrega final del curso de React.js en CODERHOUSE.",
+        "titulo": "Entrega final del curso de React.js en CODERHOUSE - 2023",
         "projectInfo": {
             "text": "Decidí recrear la página e-commerce realizada para la entrega final de Javascript, luego de ver las cosas que podía mejorar con los conocimientos adquiridos en el curso de react.<br/>Esta compuesto por una barra de navegación donde poseen links a las diferentes categorías de los productos, y una pantalla inicial donde muestra todos los productos. Estos productos se encuentran almacenados en Firebase, junto a las ordenes realizadas.<br/>Se pueden ver en detalle el producto seleccionado, agregarle cantidad y enviarlo al carrito de compras. También se ver en una nueva pantalla los productos y cantidades seleccionados que están dentro del carrito, las cuales pueden eliminarse.<br/>Al realizar la compra , nos actualiza la cantidad de stock que tenemos, y nos genera una orden de compra dentro de Firebase con los datos correspondientes, y nos devuelve por pantalla el ID de la compra realizada.",
             "usado": [
@@ -73,7 +73,7 @@
         "linkWeb": "https://gastonyasudaportfolio.netlify.app/",
         "gitName": "github.com/gastonYasudaPortfolioWeb",
         "linkGit": "https://github.com/GastonYasuda/gastonYasudaPortfolioWeb",
-        "titulo": "Página web portfolio",
+        "titulo": "Página web portfolio - 2023",
         "projectInfo": {
             "text": "Este es mi página realizada en Javascript.<br/>Acá intento mostrar los proyectos y trabajos realizados.",
             "usado": [
@@ -99,7 +99,7 @@
         "linkWeb": "https://universo-verde-vercel.vercel.app/",
         "gitName": "github.com/TimoteoGambella/UniversoVerde",
         "linkGit": "https://github.com/TimoteoGambella/UniversoVerde",
-        "titulo": "Universo verde",
+        "titulo": "Universo verde - 2023",
         "projectInfo": {
             "text": "Este es un proyecto que surge de una iniciativa de un lider (<a href='https://www.linkedin.com/in/timoteo-gambella-4b6418210/' target=`_blank`>Timoteo Gambella</a>), la cual consistió en conectar un diseñador junior y un desarrollador react junior, para llevar a cabo un proyecto 'ficticio', con el objetivo de que ambos ganemos experiencia desarrollando y diseñando.<br/>Esta es una aplicación móvil.<br/> Más detalles:  <a href='https://www.linkedin.com/feed/update/urn:li:activity:7057789330483773440/' target=`_blank`>Universo-Verde</a>",
             "usado": [
@@ -140,7 +140,7 @@
         "linkWeb": "https://gastony-pokedex-app.netlify.app/",
         "gitName": "github.com/GastonYasuda/Poke-Dex-App",
         "linkGit": "https://github.com/GastonYasuda/Poke-Dex-App",
-        "titulo": "Poke-Dex-App",
+        "titulo": "Poke-Dex-App - 2023",
         "projectInfo": {
             "text": "En este proyecto fue realizado con la intención de ganar experiencia con el uso de APIs, donde muestro todos los pokemones y al seleccionar uno de ellos me muestra la generación a la que pertenece, sus características y sus habilidades.",
             "usado": [
@@ -178,7 +178,7 @@
         "linkWeb": "https://escalada-bazar-app.netlify.app/",
         "gitName": "github.com/GastonYasuda/inventario-app",
         "linkGit": "https://github.com/GastonYasuda/inventario-app",
-        "titulo": "Control de stock",
+        "titulo": "Control de stock - 2023",
         "projectInfo": {
             "text": "Este es un proyecto donde se puede controlar el stock de un bazar. En la pantalla principal podemos ver todas las marcas con las que trabaja el local, al ingresar a una de ellas muestra todos los productos de esa marca, donde podemos ver el nombre del producto, imagen, codigo, precio, y stock. <br/> Al ingresar al producto se puede ver en una nueva pantalla el producto con los mismos detalles y un boton para editar la cantidad de stock. <br/> Estos datos se encuentran almacenados en el Firebase.<br/> App unicamente para versión celular.",
             "usado": [
