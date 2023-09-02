@@ -215,7 +215,7 @@
         "linkGit": "https://github.com/GastonYasuda/dont-forget-apli",
         "titulo": "Don't forget apli",
         "projectInfo": {
-            "text": "Este es un proyecto que lo comencé solamente para practicar un simple to do list. A medida que iba avanzando se me iban ocurriendo algunas ideas como poder loguearse y que cada usuario tenga su listas de tareas guardadas para un futuro.",
+            "text": "Este es un proyecto que lo comencé solamente para practicar un simple to do list. A medida que iba avanzando se me iban ocurriendo algunas ideas como poder loguearse y que cada usuario tenga su listas de tareas guardadas para un futuro.<br/>App responsive",
             "usado": [
                 {
                     "item": "Eventos."
