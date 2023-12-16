@@ -8,7 +8,7 @@
         "linkGit": "https://github.com/GastonYasuda/FRONTEND-MENTOR---QR",
         "titulo": "QR Challenge",
         "challengeInfo": {
-            "text": "El Objetivo fue crear pantalla de QR desde una imagen jpg obtenida de FrontEnd-Mentor.",
+            "text": "El Objetivo fue crear pantalla de QR desde una imagen jpg obtenida de FrontEnd-Mentor.</br>Responsive design.",
             "lenguajes": [
                 "./assets/html.png",
                 "./assets/css.png"
