@@ -170,7 +170,7 @@ fetch("./data/frontend-mentor.json")
             let challengeLiContenedor = document.createElement("div")
             challengeLiContenedor.classList = "proyectoLi__usados"
             challengeLiContenedor.innerHTML = `
-                <h7>Para realizar esta aplicación utilice:</h7>
+                <h7>Lenguajes utilizados para crear la pantalla:</h7>
             `
 
             descripcionUsadosContenedor.appendChild(challengeLiContenedor)

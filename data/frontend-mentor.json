@@ -8,7 +8,7 @@
         "linkGit": "https://github.com/GastonYasuda/FRONTEND-MENTOR---QR",
         "titulo": "QR Challenge",
         "challengeInfo": {
-            "text": "El lenguaje utilizado para este challenge fueron HTLM y CSS.",
+            "text": "Crear pantalla de QR desde una imagen jpg obtenida de FrontEnd-Mentor.",
             "lenguajes": [
                 "./assets/html.png",
                 "./assets/css.png"
