@@ -3,7 +3,7 @@
         "id": 1,
         "foto": "./assets/mentor-challenge/qr-challenge.jpg",
         "webName": "QR-Challenge.com",
-        "linkWeb": "hola.com.ar",
+        "linkWeb": "https://qr-challenge-gaston.netlify.app",
         "gitName": "github.com/qr-challenge",
         "linkGit": "https://github.com/GastonYasuda/FRONTEND-MENTOR---QR",
         "titulo": "QR Challenge",
