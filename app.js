@@ -105,7 +105,94 @@ fetch("./data/proyectos.json")
     })
 
 
+//-----------------------------------------------------------CHALLENGE
 
+const challenge = document.getElementById("challenge")
+
+let challengeUl = document.createElement("ul")
+challengeUl.className = "challengeUl"
+
+challenge.appendChild(challengeUl)
+
+fetch("./data/frontend-mentor.json")
+    .then(res => res.json())
+    .then(data => {
+        data.forEach(element => {
+            let challengeContainer = document.createElement("div")
+            challengeContainer.className = "proyectoContainer"
+            challengeContainer.setAttribute('data-aos', 'fade-down')
+            challengeUl.appendChild(challengeContainer)
+
+            let challengeTitulo = document.createElement("div")
+            challengeTitulo.className = "proyectoTitulo"
+            challengeTitulo.innerHTML = `<h5>${element.titulo}</h5>`
+            challengeContainer.appendChild(challengeTitulo)
+
+            let challengeLi = document.createElement("li")
+            challengeLi.classList = "proyectoLi"
+
+            challengeLi.innerHTML = `
+            <div class="proyectoLi__img">
+                <div class="imgEjemplo">
+                    <img src=${element.foto} alt=${element.titulo}  >                         
+                </div>    
+                
+                    <div class="proyectoLi__links">                            
+                        <section class="proyectoLi__links-content">
+                            <img src="./assets/program/webSiteIcon.png" alt="web logo">
+                            <a href="${element.linkWeb}" target="_blank">${element.webName}</a>                        
+                        </section>
+                                
+                        <section class="proyectoLi__links-content">
+                            <img src="./assets/program/github.png" alt="github logo">
+                            <a href="${element.linkGit}" target="_blank">${element.gitName}</a>
+                        </section>
+                    </div>
+            </div>           
+            `
+            challengeContainer.appendChild(challengeLi)
+
+            let descripcionUsadosContenedor = document.createElement('div')
+            descripcionUsadosContenedor.className = "proyectoLi__descUsaContainer"
+            challengeLi.appendChild(descripcionUsadosContenedor)
+
+
+            let proyectoInfoTexto = document.createElement("div")
+            proyectoInfoTexto.classList = "proyectoLi__descripcion"
+
+            proyectoInfoTexto.innerHTML = `
+
+                <p>${element.challengeInfo.text}</p>
+            `
+
+            descripcionUsadosContenedor.appendChild(proyectoInfoTexto)
+
+            let challengeLiContenedor = document.createElement("div")
+            challengeLiContenedor.classList = "proyectoLi__usados"
+            challengeLiContenedor.innerHTML = `
+                <h7>Para realizar esta aplicación utilice:</h7>
+            `
+
+            descripcionUsadosContenedor.appendChild(challengeLiContenedor)
+
+            let programasUtilizadosChallenge = document.createElement("div")
+            programasUtilizadosChallenge.className = "programasUtilizadosChallenge"
+
+
+            for (let i = 0; element.challengeInfo.lenguajes.length > i; i++) {
+
+                let usadoLi = document.createElement("li")
+                usadoLi.classList = "imagenProgramasUtilizados"
+
+                usadoLi.innerHTML = `
+                  <img src=${element.challengeInfo.lenguajes[i]} alt="dataKey.titulo">
+                  `
+                programasUtilizadosChallenge.appendChild(usadoLi)
+            }
+            challengeLiContenedor.appendChild(programasUtilizadosChallenge)
+        })
+
+    })
 
 //-----------------------------------------------------------TRABAJOS
 
