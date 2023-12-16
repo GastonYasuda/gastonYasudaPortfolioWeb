@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "foto": "./assets/mentor-challenge/qr-challenge.jpg",
+        "name": "QR-Challenge.com",
+        "linkWeb": "hola.com.ar",
+        "gitName": "github.com/qr-challenge",
+        "linkGit": "https://github.com/GastonYasuda/FRONTEND-MENTOR---QR",
+        "titulo": "QR Challenge",
+        "challengeInfo": {
+            "text": "El lenguaje utilizado para este challenge fueron HTLM y CSS.",
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png"
+            ]
+        }
+    }
+]
