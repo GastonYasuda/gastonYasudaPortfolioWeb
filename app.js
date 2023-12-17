@@ -120,7 +120,7 @@ fetch("./data/frontend-mentor.json")
         data.forEach(element => {
             let challengeContainer = document.createElement("div")
             challengeContainer.className = "proyectoContainer"
-            challengeContainer.setAttribute('data-aos', 'fade-down')
+            challengeContainer.setAttribute('data-aos', 'fade-up')
             challengeUl.appendChild(challengeContainer)
 
             let challengeTitulo = document.createElement("div")
