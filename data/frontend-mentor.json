@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "foto": "./assets/mentor-challenge/qr-challenge.jpg",
+        "foto": "./assets/mentor-challenge/active-states.jpg",
         "webName": "FAQ-accordion-Challenge.com",
         "linkWeb": "https://faq-accordion-challenge-gaston.netlify.app/",
         "gitName": "github.com/faq-accordion-challenge",
