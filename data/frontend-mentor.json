@@ -14,5 +14,22 @@
                 "./assets/css.png"
             ]
         }
+    },
+    {
+        "id": 2,
+        "foto": "./assets/mentor-challenge/qr-challenge.jpg",
+        "webName": "FAQ-accordion-Challenge.com",
+        "linkWeb": "https://faq-accordion-challenge-gaston.netlify.app/",
+        "gitName": "github.com/faq-accordion-challenge",
+        "linkGit": "https://github.com/GastonYasuda/chall2-faq-accordion-main",
+        "titulo": "FAQ accordion Challenge",
+        "challengeInfo": {
+            "text": "El Objetivo fue crear pantalla de QR desde una imagen jpg obtenida de FrontEnd-Mentor.</br>Responsive design.",
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
+            ]
+        }
     }
 ]
