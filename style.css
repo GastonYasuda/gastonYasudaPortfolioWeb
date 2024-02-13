@@ -130,21 +130,27 @@ html {
 .heroImg img {
     filter: drop-shadow(-5px 4px 3px rgba(0, 0, 0, 0.40));
     margin: 8px;
+    height: 100%;
 }
 
 
 .logoHtml,
 .logoCss,
 .logoJs,
-.logoReact {
+.logoReact,
+.logoAngular {
     max-width: 120px;
     transition: transform 0.5s;
+}
+.logoAngular{
+    width: 80%;
 }
 
 .logoHtml:hover,
 .logoCss:hover,
 .logoJs:hover,
-.logoReact:hover {
+.logoReact:hover,
+.logoAngular:hover {
     transform: scale(1.3);
     z-index: 5;
 }
@@ -189,7 +195,8 @@ html {
 .htmlIcon,
 .cssIcon,
 .jsIcon,
-.reactIcon {
+.reactIcon,
+.angularIcon {
     margin: 0 3px;
     transition: transform 0.5s;
 }
@@ -202,7 +209,8 @@ html {
 .htmlIcon:hover,
 .cssIcon:hover,
 .jsIcon:hover,
-.reactIcon:hover {
+.reactIcon:hover,
+.angularIcon:hover {
     transform: scale(1.3);
 
 }
