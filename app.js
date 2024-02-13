@@ -101,6 +101,31 @@ fetch("./data/proyectos.json")
 
                 proyectoLiContenedor.appendChild(usadoLi)
             }
+
+
+
+            let proyectoLiProgramasUtilizados = document.createElement("div")
+            proyectoLiProgramasUtilizados.classList="proyectoLiProgramasUtilizados"
+            proyectoLiProgramasUtilizados.innerHTML=`
+            <h7>Lenguajes utilizados:</h7>
+            `
+
+            descripcionUsadosContenedor.appendChild(proyectoLiProgramasUtilizados)
+
+            let programasUtilizadosProyectos = document.createElement("div")
+            programasUtilizadosProyectos.className = "programasUtilizadosProyectos"
+
+            for (let i = 0; element.projectInfo.lenguajes.length > i; i++) {
+
+                let usadoLi = document.createElement("li")
+                usadoLi.classList = "imagenProgramasUtilizados"
+
+                usadoLi.innerHTML = `
+                  <img src=${element.projectInfo.lenguajes[i]} alt="dataKey.titulo">
+                  `
+                  programasUtilizadosProyectos.appendChild(usadoLi)
+            }
+            proyectoLiProgramasUtilizados.appendChild(programasUtilizadosProyectos)
         })
     })
 
@@ -170,7 +195,7 @@ fetch("./data/frontend-mentor.json")
             let challengeLiContenedor = document.createElement("div")
             challengeLiContenedor.classList = "proyectoLi__usados"
             challengeLiContenedor.innerHTML = `
-                <h7>Lenguajes utilizados para crear la pantalla:</h7>
+                <h7>Lenguajes utilizados:</h7>
             `
 
             descripcionUsadosContenedor.appendChild(challengeLiContenedor)

@@ -25,6 +25,11 @@
                 {
                     "item": "Librerías (Toastify, Sweet-Alert)"
                 }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     },
@@ -63,6 +68,10 @@
                 {
                     "item": "Context."
                 }
+            ],  "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     },
@@ -89,6 +98,10 @@
                 {
                     "item": "Librería (AOS - animation on scroll)."
                 }
+            ],  "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     },
@@ -130,6 +143,11 @@
                 {
                     "item": "Librería (email.js, Facebook-login, Google-login,  react-toastify, Sweet-alert, Sass)."
                 }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     },
@@ -168,6 +186,11 @@
                 {
                     "item": "Librerías (Sweet-Alert)."
                 }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     },
@@ -203,6 +226,11 @@
                 {
                     "item": "Librerías (Sweet-Alert)."
                 }
+            ], 
+             "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     },
@@ -241,6 +269,11 @@
                 {
                     "item": "Librerías (Sweet-Alert)."
                 }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     },
@@ -276,6 +309,11 @@
                 {
                     "item": "Librerías (Sweet-Alert)."
                 }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
             ]
         }
     }

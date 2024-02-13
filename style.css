@@ -343,9 +343,15 @@ html {
     width: 100%;
     margin: 10px;
 }
+.imgEjemplo{
+    display: flex;
+    justify-content: center;
+}
 
 .imgEjemplo img {
-    width: 100%;
+    width: 80%;
+    max-height: 500px;
+    object-fit: contain;
 }
 
 
@@ -385,7 +391,8 @@ html {
     width: 100%;
 }
 
-.proyectoLi__usados {
+.proyectoLi__usados,
+.proyectoLiProgramasUtilizados {
     margin-top: 10px;
 }
 
@@ -480,7 +487,8 @@ html {
 /* -----------------------------------CHALLENGE */
 
 
-.programasUtilizadosChallenge {
+.programasUtilizadosChallenge, 
+.programasUtilizadosProyectos {
     width: 100%;
     display: flex;
 }
