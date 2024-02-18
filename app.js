@@ -142,7 +142,7 @@ challenge.appendChild(challengeUl)
 fetch("./data/frontend-mentor.json")
     .then(res => res.json())
     .then(data => {
-        data.forEach(element => {
+        data.reverse().forEach(element => {
             let challengeContainer = document.createElement("div")
             challengeContainer.className = "proyectoContainer"
             challengeContainer.setAttribute('data-aos', 'fade-up')
