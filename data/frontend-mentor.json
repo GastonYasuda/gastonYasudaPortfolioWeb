@@ -41,7 +41,7 @@
         "linkGit": "hhttps://github.com/GastonYasuda/recipePageMain",
         "titulo": "Recipe web page",
         "challengeInfo": {
-            "text": "En Este proyecto cree un mock, donde coloqué todos los datos que me daba la página de mentor y los mostre por pantalla a traves de un componente, para poder duplicar el diseño.</br>Responsive design",
+            "text": "En Este proyecto cree un mock, donde coloqué todos los datos que me daba la página de mentor y los mostre por pantalla a traves de un componente, para poder duplicar el diseño.</br>Responsive design.",
             "lenguajes": [
                 "./assets/html.png",
                 "./assets/css.png",
