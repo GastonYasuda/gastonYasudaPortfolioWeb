@@ -160,7 +160,7 @@
         "linkGit": "https://github.com/GastonYasuda/Poke-Dex-App",
         "titulo": "Poke-Dex-App - 2023",
         "projectInfo": {
-            "text": "En este proyecto fue realizado con la intención de ganar experiencia con el uso de APIs, donde muestro todos los pokemones y al seleccionar uno de ellos me muestra la generación a la que pertenece, sus características y sus habilidades.",
+            "text": "En este proyecto fue realizado en React.JS con la intención de mostrar todos los pokemones y sus descripciones. En la pantalla inicial, podemos seleccionar para mostrar todos los pokemones según su generación con la ayuda de React-Router-Dom. Al seleccionar un pokemón, nos lleva a otro componente donde nos muestra el pokemón seleccionado con sus caracteristicas, sus evoluciones (si es que las tiene) y sus habilidades. También muestra sus hábitats y sus tipos con botones para poder seleccionarlos y mostrarnos otros pokemones con las mismas características.",
             "usado": [
                 {
                     "item": "Eventos."
@@ -203,7 +203,7 @@
         "linkGit": "https://github.com/GastonYasuda/inventario-app",
         "titulo": "Control de stock - 2023",
         "projectInfo": {
-            "text": "Este es un proyecto donde se puede controlar el stock de un bazar. En la pantalla principal podemos ver todas las marcas con las que trabaja el local, al ingresar a una de ellas muestra todos los productos de esa marca, donde podemos ver el nombre del producto, imagen, codigo, precio, y stock. <br/> Al ingresar al producto se puede ver en una nueva pantalla el producto con los mismos detalles y un boton para editar la cantidad de stock. <br/> Estos datos se encuentran almacenados en el Firebase.<br/> App unicamente para versión celular.",
+            "text": "Este es un proyecto donde se puede controlar el stock de un bazar. En la pantalla principal podemos ver todas las marcas con las que trabaja el local, al ingresar a una de ellas muestra todos los productos de esa marca, donde podemos ver el nombre del producto, imagen, código, precio, y stock. <br/> Al ingresar al producto se puede ver en una nueva pantalla el producto con los mismos detalles y un boton para editar la cantidad de stock. <br/> Estos datos se encuentran almacenados en el Firebase.<br/> App únicamente para versión mobile.",
             "usado": [
                 {
                     "item": "Eventos."
@@ -243,7 +243,7 @@
         "linkGit": "https://github.com/GastonYasuda/dont-forget-apli",
         "titulo": "Don't forget apli - 2023",
         "projectInfo": {
-            "text": "Este es un proyecto que lo comencé solamente para practicar un simple to do list. A medida que iba avanzando se me iban ocurriendo algunas ideas como poder loguearse y que cada usuario tenga su listas de tareas guardadas para un futuro.<br/>App responsive",
+            "text": "Este es un proyecto fue realizado en React.Js. Es un toDoList con login para que quede guardado cada lista de tareas de cada usuario registrado. </br>En la pantalla inicial tenemos un Login, donde el usario puede registrarse o ingresar con la cuenta de Google (para eso se utilizó la api de google login). También se puede ingresar sin registrarse, pero no va a tener la opción de guardar las listas creadas.</br>Una vez ingresado, nos da la opción de elegir por ASSIGN TASK, donde podemos crear listas con sus fechas y guardarlas en Firebase, y por QUICK TASKS, donde podemos crear listas de tareas que se borran al cerrar la aplicación.</br>Esta App es responsive",
             "usado": [
                 {
                     "item": "Eventos."
@@ -286,7 +286,7 @@
         "linkGit": "https://github.com/GastonYasuda/presu-cuadros",
         "titulo": "Cotizador on-line - 2024",
         "projectInfo": {
-            "text": "Este es un proyecto decidí realizarlo por una consulta de un amigo si podría realizar este tipo de aplicaciones, y decidí tomarlo como un reto. <br/>App responsive",
+            "text": "Este proyecto esta realizado en React.Js y es una aplicación donde nos calcula el presupuesto de un producto. En la página principal, nos muestra el producto a cotizar y sus respectivas caractecrísticas donde podemos seleccionarlas a traves de un drop-down, y nos calcula el presupuesto. En su otra pantalla (para administradores), podemos dar Alta, Baja y Modificación de las características y precios del producto a presupuestar.</br> Aquí es donde está lo mas importante del código. A traves de varios componentes, podemos agregar nuevas características, eliminar características, cambiar precios que se almacenan en Firebase y llamamos los datos a travez de un provider donde nos muestra los datos pedidos.</br> Esta App es responsive.",
             "usado": [
                 {
                     "item": "Eventos."
