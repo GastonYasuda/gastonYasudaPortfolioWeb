@@ -282,7 +282,7 @@
         "foto": "./assets/proyectos/Cotizador.png",
         "webName": "Cotizador on-line",
         "linkWeb": "https://presu-cuadros-gaston.netlify.app/",
-        "gitName": "github.com/GastonYasuda/dont-forget-apli",
+        "gitName": "github.com/GastonYasuda/presupuesto",
         "linkGit": "https://github.com/GastonYasuda/presu-cuadros",
         "titulo": "Cotizador on-line - 2024",
         "projectInfo": {
@@ -314,6 +314,43 @@
                 "./assets/html.png",
                 "./assets/css.png",
                 "./assets/react.png"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "foto": "./assets/proyectos/app-image.png",
+        "webName": "Rick & Morty Wiki",
+        "linkWeb": "https://rick-and-morty-wiki-gaston.netlify.app/",
+        "gitName": "github.com/GastonYasuda/rick&morty-wiki",
+        "linkGit": "https://github.com/GastonYasuda/rick-and-morty-wiki",
+        "titulo": "Rick & Morty Wiki - 2024",
+        "projectInfo": {
+            "text": "Este proyecto esta realizado en Angular.Js. Es una aplicación donde puedo buscar los personajes de Rick and Morty utilizando la API. En la pantalla principal podemos encontrar varios componentes, navbar, personajes, lugares y footer. En el navBar tiene botones enrutados que nos llevan a diferentes rutas, y un buscador realizadon con formularios reactivos. Al seleccionar el personaje nos muestra en detalle el personaje seleccionado.</br> Esta App es responsive.",
+            "usado": [
+                {
+                    "item": "Service."
+                },
+                {
+                    "item": "Routes."
+                },
+                {
+                    "item": "HttpClient."
+                },
+                {
+                    "item": "Interface."
+                },
+                {
+                    "item": "Reactive Forms."
+                },
+                {
+                    "item": "Estructura de control."
+                }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/angular.png"
             ]
         }
     }
