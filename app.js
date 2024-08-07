@@ -49,7 +49,9 @@ fetch("./data/proyectos.json")
             proyectoLi.innerHTML = `
                     <div class="proyectoLi__img">
                         <div class="imgEjemplo">
-                            <img src=${element.foto} alt=${element.titulo}  >                         
+                            <a  href="${element.linkWeb}" target="_blank">
+                             <img src=${element.foto} alt=${element.titulo}  >       
+                            </a>                  
                         </div>    
                             
                         <div class="proyectoLi__links">                            
@@ -105,8 +107,8 @@ fetch("./data/proyectos.json")
 
 
             let proyectoLiProgramasUtilizados = document.createElement("div")
-            proyectoLiProgramasUtilizados.classList="proyectoLiProgramasUtilizados"
-            proyectoLiProgramasUtilizados.innerHTML=`
+            proyectoLiProgramasUtilizados.classList = "proyectoLiProgramasUtilizados"
+            proyectoLiProgramasUtilizados.innerHTML = `
             <h7>Lenguajes utilizados:</h7>
             `
 
@@ -123,7 +125,7 @@ fetch("./data/proyectos.json")
                 usadoLi.innerHTML = `
                   <img src=${element.projectInfo.lenguajes[i]} alt="dataKey.titulo">
                   `
-                  programasUtilizadosProyectos.appendChild(usadoLi)
+                programasUtilizadosProyectos.appendChild(usadoLi)
             }
             proyectoLiProgramasUtilizados.appendChild(programasUtilizadosProyectos)
         })
