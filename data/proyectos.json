@@ -389,5 +389,45 @@
                 "./assets/react.png"
             ]
         }
+    },
+    {
+        "id": 10,
+        "foto": "./assets/proyectos/digitalWave.jpg",
+        "webName": "digitalwave.agency",
+        "linkWeb": "https://digitalwave.agency/",
+        "gitName": "github.com/GastonYasuda/digital_wave_web",
+        "linkGit": "https://github.com/GastonYasuda/digital_wave_web",
+        "titulo": "Digital Wave - 2024",
+        "projectInfo": {
+            "text": "Página web fue realizada en react.js, compuesta con un home inicial con varias secciones. Posee una seccion Servicios que cada icono nos deriva a la página correspondiente. También posee una sección Contacto, el cual se puede realizar consultas y estas llegan al mail designado gracias a la libreria EmailJS. </br> Responsive.",
+            "usado": [
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "react-boostrap."
+                },
+                {
+                    "item": "react-router-dom."
+                },
+                {
+                    "item": "Context."
+                },
+                {
+                    "item": "EmailJs."
+                },
+                {
+                    "item": "SweetAlert 2."
+                }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png"
+            ]
+        }
     }
 ]
