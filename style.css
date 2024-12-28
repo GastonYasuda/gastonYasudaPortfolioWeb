@@ -138,11 +138,13 @@ html {
 .logoCss,
 .logoJs,
 .logoReact,
-.logoAngular {
+.logoAngular,
+.logoTypescript {
     max-width: 120px;
     transition: transform 0.5s;
 }
-.logoAngular{
+
+.logoAngular {
     width: 80%;
 }
 
@@ -150,7 +152,8 @@ html {
 .logoCss:hover,
 .logoJs:hover,
 .logoReact:hover,
-.logoAngular:hover {
+.logoAngular:hover,
+.logoTypescript:hover {
     transform: scale(1.3);
     z-index: 5;
 }
@@ -196,7 +199,8 @@ html {
 .cssIcon,
 .jsIcon,
 .reactIcon,
-.angularIcon {
+.angularIcon,
+.typescriptIcon {
     margin: 0 3px;
     transition: transform 0.5s;
 }
@@ -210,7 +214,7 @@ html {
 .cssIcon:hover,
 .jsIcon:hover,
 .reactIcon:hover,
-.angularIcon:hover {
+.typescriptIcon:hover {
     transform: scale(1.3);
 
 }
@@ -343,7 +347,8 @@ html {
     width: 100%;
     margin: 10px;
 }
-.imgEjemplo{
+
+.imgEjemplo {
     display: flex;
     justify-content: center;
 }
@@ -487,7 +492,7 @@ html {
 /* -----------------------------------CHALLENGE */
 
 
-.programasUtilizadosChallenge, 
+.programasUtilizadosChallenge,
 .programasUtilizadosProyectos {
     width: 100%;
     display: flex;

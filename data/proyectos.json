@@ -429,5 +429,40 @@
                 "./assets/react.png"
             ]
         }
+    },
+    {
+        "id": 11,
+        "foto": "./assets/proyectos/Bookapp.jpg",
+        "webName": "bookApp.com",
+        "linkWeb": "https://book-app-gaston.netlify.app/",
+        "gitName": "github.com/GastonYasuda/book-app",
+        "linkGit": "https://github.com/GastonYasuda/book-app",
+        "titulo": "Book App - 2024",
+        "projectInfo": {
+            "text": "Aplicación de biblioteca diseñada para que los usuarios puedan guardar y gestionar sus libros favoritos. Basándose en los libros guardados, la aplicación también sugiere lecturas recomendadas. Esta herramienta es completamente responsive, adaptándose a diferentes dispositivos. Es mi primer proyecto desarrollado con React.js y TypeScript, lo que representó un gran desafío, especialmente al trabajar con un lenguaje altamente tipado como TypeScript. El proceso de vinculación entre los distintos componentes fue especialmente enriquecedor, y la implementación del Context resultó clave para gestionar el estado de manera eficiente. Este proyecto fue una excelente introducción para familiarizarme con estas tecnologías y fortalecer mis habilidades como desarrollador frontend.",
+            "usado": [
+                {
+                    "item": "Eventos."
+                },
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "react-router-dom."
+                },
+                {
+                    "item": "Context."
+                },
+                {
+                    "item": "Toastify."
+                }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png",
+                "./assets/typescript.png"
+            ]
+        }
     }
 ]
