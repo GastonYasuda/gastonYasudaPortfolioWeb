@@ -464,5 +464,35 @@
                 "./assets/typescript.png"
             ]
         }
+    },
+    {
+        "id": 12,
+        "foto": "./assets/proyectos/Ghibliapp.jpg",
+        "webName": "ghibliApp.com",
+        "linkWeb": "https://ghibli-app-chi.vercel.app/",
+        "gitName": "github.com/GastonYasuda/ghibli-app",
+        "linkGit": "https://github.com/GastonYasuda/ghibli-app",
+        "titulo": "Ghibli App - 2025",
+        "projectInfo": {
+            "text": "Aplicación de biblioteca diseñada para que los usuarios puedan guardar y gestionar sus libros favoritos. Basándose en los libros guardados, la aplicación también sugiere lecturas recomendadas. Esta herramienta es completamente responsive, adaptándose a diferentes dispositivos. Es mi primer proyecto desarrollado con React.js y TypeScript, lo que representó un gran desafío, especialmente al trabajar con un lenguaje altamente tipado como TypeScript. El proceso de vinculación entre los distintos componentes fue especialmente enriquecedor, y la implementación del Context resultó clave para gestionar el estado de manera eficiente. Este proyecto fue una excelente introducción para familiarizarme con estas tecnologías y fortalecer mis habilidades como desarrollador frontend.",
+            "usado": [
+                {
+                    "item": "Hooks."
+                },
+                {
+                    "item": "Context."
+                },
+                {
+                    "item": "Toastify."
+                }
+            ],
+            "lenguajes": [
+                "./assets/html.png",
+                "./assets/css.png",
+                "./assets/react.png",
+                "./assets/typescript.png",
+                "./assets/next.png"
+            ]
+        }
     }
 ]
